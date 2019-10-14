@@ -58,9 +58,20 @@ body {
 	text-align: center;
 	position: absolute;
 	left: 50%;
-	top: 42.5%;
+	top: 30%;
 	transform: translate(-50%, -50%);
 	background-color: #ffffff;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+ul li {
+	text-align: center;
 }
 
 .questions {
