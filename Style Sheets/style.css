@@ -108,7 +108,7 @@ html,body{
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
 }
 .info h4, .meta{
-  font-size:1em
+  font-size:0.95em
 }
 .meta{
   font-style:italic;
@@ -186,6 +186,19 @@ a {
 	text-decoration: none;
 }
 
+a:link {
+	color: #02024e;
+}
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+
+a:visited {
+	color: white;
+}
+
 /* unvisited link */
 .sides .info a:link {
   color: white;
@@ -197,21 +210,7 @@ a {
 }
 
 .description a:link {
-	color: #02024e; 
-}
-
-.description a:link {
 	color: #02024e;
-}
-
-/* mouse over link */
-a:hover {
-  color: lightblue;
-}
-
-/* selected link */
-a:active {
-  color: white;
 }
 
 .questions {
@@ -293,8 +292,6 @@ a:active {
 }
 
 footer {
-	margin-top: auto;
-	overflow: hidden;
 	background-color: #4a4a95;
 	font-size: 20px;
 	color: white;
