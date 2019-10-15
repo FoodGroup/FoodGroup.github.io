@@ -187,13 +187,21 @@ a {
 }
 
 /* unvisited link */
-a:link {
+.sides .info a:link {
   color: white;
 }
 
 /* visited link */
-a:visited {
+.sides .info a:visited {
   color: white;
+}
+
+.description a:link {
+	color: #02024e; 
+}
+
+.description a:link {
+	color: #02024e;
 }
 
 /* mouse over link */
