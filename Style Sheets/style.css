@@ -187,11 +187,11 @@ a {
 }
 
 a:link {
-	color: #02024e;
+	color: white;
 }
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: lightblue;
 }
 
 
